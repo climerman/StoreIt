@@ -1,36 +1,86 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="Arved.xslt" ?>
 <arved>
-  <arve number="" kuupäev="">
-    <koostaja eesnimi="" perenimi="">
+  <arve number="1337420" kuupäev="20.03.2016">
+    <koostaja eesnimi="Kaspar" perenimi="Tilk">
       <kontaktandmed>
-        <kontakt väärtus="" tüüp=""/>
+        <kontakt väärtus="kaspar.tilk" tüüp="Skype"/>
+        <kontakt väärtus="53542343" tüüp="telefon"/>
       </kontaktandmed>
     </koostaja>
-    <tellija eesnimi="" perenimi=""/>
-    <tarneviis nimetus="">
-      <tarnija nimi=""/>
+    <tellija eesnimi="Mait" perenimi="Poska"/>
+    <tarneviis nimetus="kuller">
+      <tarnija nimi="DPD"/>
     </tarneviis>
     <tellitudTooted>
-      <toode nimi="" kogus="" ühik="" kategooria="" aktiivne="true">
-        <tavahind väärtus="" valuuta=""/>
-        <soodushind väärtus="" valuuta=""/>
-        <kirjeldus><![CDATA[banaan]]></kirjeldus>
+      <toode nimi="banaan" kogus="2" ühik="kg" kategooria="puuvili" aktiivne="true">
+        <tavahind väärtus="2" valuuta="€"/>
+        <soodushind väärtus="1.50" valuuta="€"/>
+        <kirjeldus><![CDATA[toores banaan]]></kirjeldus>
+      </toode>
+      <toode nimi="õun" kogus="3" ühik="kg" kategooria="puuvili" aktiivne="true">
+        <tavahind väärtus="1" valuuta="€"/>
+        <soodushind väärtus="0.50" valuuta="€"/>
+        <kirjeldus><![CDATA[hapu õun]]></kirjeldus>
       </toode>
     </tellitudTooted>
-    <käibemaksumäär väärtus=""/>
+    <käibemaksumäär väärtus="0%"/>
     <summad>
-      <käibemaksuta väärtus="" valuuta=""/>
-      <käibemaksuga väärtus="" valuuta=""/>
+      <käibemaksuta väärtus="3" valuuta="€"/>
+      <käibemaksuga väärtus="3" valuuta="€"/>
     </summad>
-    <juriidilineInfo ettevõtteNimi="" registrikood="" aadress="">
+    <juriidilineInfo ettevõtteNimi="OÜ Puuvili" registrikood="420666" aadress="Keki tn, Keila">
       <pangakontod>
-        <pangakonto pangaNimi="" kontonr=""/>
+        <pangakonto pangaNimi="Swedbank" kontonr="EE12345678"/>
+        <pangakonto pangaNimi="SEB" kontonr="EE87654321"/>
       </pangakontod>
       <kontaktandmed>
-        <kontakt väärtus="" tüüp=""/>
+        <kontakt väärtus="puu@vili.ee" tüüp="E-mail"/>
+        <kontakt väärtus="531337" tüüp="Telefon"/>
       </kontaktandmed>
     </juriidilineInfo>
-    <lisainfo><![CDATA[lisainfo]]></lisainfo>
-    <tähtaeg kuupäev=""/>
+    <lisainfo><![CDATA[Täname tellimuse eest!]]></lisainfo>
+    <tähtaeg kuupäev="21.03.2016"/>
+  </arve>
+  <arve number="1337420" kuupäev="20.03.2016">
+    <koostaja eesnimi="Kaspar" perenimi="Tilk">
+      <kontaktandmed>
+        <kontakt väärtus="kaspar.tilk" tüüp="Skype"/>
+        <kontakt väärtus="53542343" tüüp="Telefon"/>
+      </kontaktandmed>
+    </koostaja>
+    <tellija eesnimi="Andres" perenimi="Käver"/>
+    <tarneviis nimetus="kuller">
+      <tarnija nimi="DPD"/>
+    </tarneviis>
+    <tellitudTooted>
+      <toode nimi="banaan" kogus="2" ühik="kg" kategooria="puuvili" aktiivne="true">
+        <tavahind väärtus="2" valuuta="€"/>
+        <soodushind väärtus="1.50" valuuta="€"/>
+        <kirjeldus><![CDATA[toores banaan]]></kirjeldus>
+      </toode>
+      <toode nimi="õun" kogus="3" ühik="kg" kategooria="puuvili" aktiivne="true">
+        <tavahind väärtus="1" valuuta="€"/>
+        <soodushind väärtus="0.50" valuuta="€"/>
+        <kirjeldus><![CDATA[hapu õun]]></kirjeldus>
+      </toode>
+    </tellitudTooted>
+    <käibemaksumäär väärtus="0%"/>
+    <summad>
+      <käibemaksuta väärtus="3" valuuta="€"/>
+      <käibemaksuga väärtus="3" valuuta="€"/>
+    </summad>
+    <juriidilineInfo ettevõtteNimi="OÜ Puuvili" registrikood="420666" aadress="Keki tn, Keila">
+      <pangakontod>
+        <pangakonto pangaNimi="Swedbank" kontonr="EE12345678"/>
+        <pangakonto pangaNimi="SEB" kontonr="EE87654321"/>
+      </pangakontod>
+      <kontaktandmed>
+        <kontakt väärtus="puu@vili.ee" tüüp="E-mail"/>
+        <kontakt väärtus="531337" tüüp="telefon"/>
+      </kontaktandmed>
+    </juriidilineInfo>
+    <lisainfo><![CDATA[Täname tellimuse eest!]]></lisainfo>
+    <tähtaeg kuupäev="21.03.2016"/>
   </arve>
 </arved>
