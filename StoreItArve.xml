@@ -1,12 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <arved>
   <arve number="" kuupäev="">
-    <koostaja eesnimi="" perenimi=""/>
+    <koostaja eesnimi="" perenimi="">
+      <kontakt väärtus="" tüüp=""/>
+    </koostaja>
     <tellija eesnimi="" perenimi=""/>
-    <kontaktandmed väärtus="" tüüp=""/> <!--meie ettevõtte omad-->
+    <tarneviis nimetus="">
+      <tarnija nimi=""/>
+    </tarneviis>
     <tellitudTooted>
       <toode nimi="" kogus="" ühik="" kategooria="" aktiivne="true">
-        <hind väärtus="" valuuta=""/>
+        <tavahind väärtus="" valuuta=""/>
+        <soodushind väärtus="" valuuta=""/>
         <kirjeldus><![CDATA[banaan]]></kirjeldus>
       </toode>
     </tellitudTooted>
@@ -15,6 +20,10 @@
       <käibemaksuta väärtus="" valuuta=""/>
       <käibemaksuga väärtus="" valuuta=""/>
     </summad>
+    <juriidilineInfo ettevõtteNimi="" registrikood="" aadress="">
+      <pangakonto pangaNimi="" kontonr=""/>
+      <kontakt väärtus="" tüüp=""/>
+    </juriidilineInfo>
     <lisainfo><![CDATA[lisainfo]]></lisainfo>
     <tähtaeg kuupäev=""/>
   </arve>
