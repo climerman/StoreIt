@@ -2,7 +2,9 @@
 <arved>
   <arve number="" kuupäev="">
     <koostaja eesnimi="" perenimi="">
-      <kontakt väärtus="" tüüp=""/>
+      <kontaktandmed>
+        <kontakt väärtus="" tüüp=""/>
+      </kontaktandmed>
     </koostaja>
     <tellija eesnimi="" perenimi=""/>
     <tarneviis nimetus="">
@@ -21,8 +23,12 @@
       <käibemaksuga väärtus="" valuuta=""/>
     </summad>
     <juriidilineInfo ettevõtteNimi="" registrikood="" aadress="">
-      <pangakonto pangaNimi="" kontonr=""/>
-      <kontakt väärtus="" tüüp=""/>
+      <pangakontod>
+        <pangakonto pangaNimi="" kontonr=""/>
+      </pangakontod>
+      <kontaktandmed>
+        <kontakt väärtus="" tüüp=""/>
+      </kontaktandmed>
     </juriidilineInfo>
     <lisainfo><![CDATA[lisainfo]]></lisainfo>
     <tähtaeg kuupäev=""/>
